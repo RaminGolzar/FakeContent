@@ -1,5 +1,5 @@
 <?php
-namespace App\Libraries\TEFakeContent\Interpreter\Handlers;
+namespace FakeContent\Interpreter\Handlers;
 
 class Method extends BaseInterpreter
 {

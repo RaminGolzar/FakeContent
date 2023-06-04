@@ -1,9 +1,9 @@
 <?php
-namespace App\Libraries\TEFakeContent\Interpreter;
+namespace FakeContent\Interpreter;
 
-use App\Libraries\TEFakeContent\Interpreter\Handlers\Method;
-use App\Libraries\TEFakeContent\Interpreter\Handlers\Sign;
-use App\Libraries\TEFakeContent\Interpreter\Handlers\Range;
+use FakeContent\Interpreter\Handlers\Method;
+use FakeContent\Interpreter\Handlers\Sign;
+use FakeContent\Interpreter\Handlers\Range;
 
 class Interpreter
 {
