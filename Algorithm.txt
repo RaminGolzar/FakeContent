@@ -1,0 +1,106 @@
+Alphabet:
+
+--------------------------------------------------------
+ToDo:
++ faraham kardan emkane "NULL" value
++ dar alphbaet ordinal bad as "Y" mopare "AA"
+-------------------------------------------------
+ 
+upper | lower | upper & lower | min length | max length | fix length
+fix word (aa or HH) | number (random or sortable or fix) | sign (random 
+or fix) | space | count string (count alph, count num , count sign) | 
+formatting string (%d %n %s)
+
+----------------------------------------------------
+ 
+Number:
+ 
+min length | max length | fix length | randorm or sortable or fix value
+
+----------------------------------------------------
+
+Toggle value:
+
+value 1 | value 2 | set fix value or set randorm value
+
+-------------------------------------------------------
+
+Date & Time:
+
+actual time or timestamp | set fix time or on time
+
+---------------------------------------------------
+
+Password:
+
+actual or hashing | method hashing | random or fix or match with 
+a field | 
+
+--------------------------------------------------------
+
+Email:
+
+domain | fix or randorm char or random number or complex Email 
+address | min length | max length | fix length | match with a field
+
+-------------------------------------------------
+
+Loremipsum:
+
+word count | char count 
+
+------------------------------------------------------
+
+Placeholders:
+
+length[FixCount] | length[Min-Max]
+
+case[FixCase] | case[Complex]
+
+fix[Word|num|sign]
+
+figunachi[Word|num] | manande Excell
+
+rand_alpha -> for character
+
+rand_number -> one number
+
+rand_sign -> one sign
+
+======================================
+
+Note: these placeholders must seperated by coma;
+
+<#> -> ordinal number
+<$> -> ordinal char (upper)
+<@> -> ordinal char (lower)
+<[#]> -> random a number
+<[$]> -> random a char (upper cace)
+<[@]> -> random a char (lower cace)
+<[%]> -> random a sign
+
+# in 2 line ra natavanestam anjam daham.
+<ordinal(apple , banana , ...)> -> return between of values - must interpret value - return sorting
+<random(apple , banana , ...)> -> return between of values - must interpret value - return random
+
+
+<[10-100]> -> random number between 10 to 100
+
+<[a-h]> -> random character between "a" to "h"
+<[A-H]> -> random character between "H" to "H"
+
+<time()> -> set only current time
+<date()> -> set only current date
+<datetime()> -> set current date & time
+<timestamp()> -> set current timestamp
+
+# in line ra natavanestam dorost konam.
+<match(FieldName)> -> get & setting value from other field
+
+<hash(MethodName)> -> for hashing
+
+<lorem_char(10)> -> return loremipsum thet contain 10 character
+<lorem_char(10,100)> -> return loremipsum thet contain between 10 character to 100
+<lorem_word(10)> -> return loremipsum thet contain 10 word
+<lorem_word(10,100)> -> return loremipsum thet contain between 10 word to 100
+
