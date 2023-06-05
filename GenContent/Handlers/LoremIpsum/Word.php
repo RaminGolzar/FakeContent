@@ -1,5 +1,8 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent\Handlers\LoremIpsum;
+namespace FakeContent\GenContent\Handlers\LoremIpsum;
+
+require_once './Paths.php';
+require_once BASE_LOREM_IPSUM;
 
 class Word extends BaseLoremIpsum
 {

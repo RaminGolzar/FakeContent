@@ -1,6 +1,11 @@
 <?php
 namespace FakeContent\Interpreter;
 
+require_once './Paths.php';
+require_once METHOD;
+require_once SIGN;
+require_once RANGE;
+
 use FakeContent\Interpreter\Handlers\Method;
 use FakeContent\Interpreter\Handlers\Sign;
 use FakeContent\Interpreter\Handlers\Range;

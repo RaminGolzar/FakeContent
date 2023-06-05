@@ -1,6 +1,10 @@
 <?php
 namespace FakeContent\Interpreter\Handlers;
 
+require_once './Paths.php';
+
+require_once BASE_INTERPRETER;
+
 class Range extends BaseInterpreter
 {
 

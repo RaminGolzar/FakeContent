@@ -1,5 +1,5 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent\Handlers\LoremIpsum;
+namespace FakeContent\GenContent\Handlers\LoremIpsum;
 
 class BaseLoremIpsum
 {

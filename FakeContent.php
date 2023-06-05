@@ -1,9 +1,13 @@
 <?php
 namespace FakeContent;
 
+require_once './Paths.php';
+require_once INTERPRETER;
 /* todo: edit belowe line */
 
 //use App\Libraries\TEFakeContent\Interpreter\Interpreter;
+
+use FakeContent\Interpreter\Interpreter;
 
 class FakeContent
 {

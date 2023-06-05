@@ -1,7 +1,12 @@
 <?php
 namespace FakeContent\Interpreter\Handlers;
 
-use App\Libraries\TEFakeContent\GenContent\GenContent;
+require_once './Paths.php';
+
+require_once BASE_INTERPRETER;
+require_once GEN_CONTENT;
+
+use FakeContent\GenContent\GenContent;
 
 class Sign extends BaseInterpreter
 {

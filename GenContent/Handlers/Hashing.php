@@ -1,5 +1,8 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent\Handlers;
+namespace FakeContent\GenContent\Handlers;
+
+require_once './Paths.php';
+require_once INTERPRETER;
 
 class Hashing
 {
@@ -29,7 +32,7 @@ class Hashing
      * @return string|null
      */
     private function prepare_content (string $content): ?string {
-        $interpreter = new \App\Libraries\TEFakeContent\Interpreter\Interpreter();
+        $interpreter = new \FakeContent\Interpreter\Interpreter();
 
         $res = $interpreter->make_field ($content);
 

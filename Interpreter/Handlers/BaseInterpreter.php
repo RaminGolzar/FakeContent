@@ -17,7 +17,8 @@ abstract class BaseInterpreter
      * Assignment $gc property
      */
     public function __construct () {
-        $this->gc = new \App\Libraries\TEFakeContent\GenContent\GenContent();
+        /* ToDo: add a back slash to before namespace */
+        $this->gc = new \FakeContent\GenContent\GenContent();
     }
 
 }

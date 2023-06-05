@@ -1,5 +1,5 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent\Handlers;
+namespace FakeContent\GenContent\Handlers;
 
 class DateTime
 {

@@ -1,13 +1,22 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent;
+namespace FakeContent\GenContent;
 
-use App\Libraries\TEFakeContent\GenContent\Handlers\LoremIpsum\Character;
-use App\Libraries\TEFakeContent\GenContent\Handlers\LoremIpsum\Word;
-use App\Libraries\TEFakeContent\GenContent\Handlers\Accidental;
-use App\Libraries\TEFakeContent\GenContent\Handlers\Ordinal;
-use App\Libraries\TEFakeContent\GenContent\Handlers\Range;
-use App\Libraries\TEFakeContent\GenContent\Handlers\DateTime;
-use App\Libraries\TEFakeContent\GenContent\Handlers\Hashing;
+require_once './Paths.php';
+require_once CHARACTER;
+require_once WORD;
+require_once ACCIDENTAL;
+require_once ORDINAL;
+require_once GEN_CONTENT_RANGE;
+require_once DATE_TIME;
+require_once HASHING;
+
+use FakeContent\GenContent\Handlers\LoremIpsum\Character;
+use FakeContent\GenContent\Handlers\LoremIpsum\Word;
+use FakeContent\GenContent\Handlers\Accidental;
+use FakeContent\GenContent\Handlers\Ordinal;
+use FakeContent\GenContent\Handlers\Range;
+use FakeContent\GenContent\Handlers\DateTime;
+use FakeContent\GenContent\Handlers\Hashing;
 
 class GenContent
 {
@@ -133,6 +142,7 @@ class GenContent
      * @return string
      */
     public function ordinal_num (bool $reset = false , int $start = 0): string {
+
         $ordinal = new Ordinal ();
 
         return $ordinal->num ($reset , $start);

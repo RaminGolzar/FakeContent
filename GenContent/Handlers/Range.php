@@ -1,5 +1,8 @@
 <?php
-namespace App\Libraries\TEFakeContent\GenContent\Handlers;
+namespace FakeContent\GenContent\Handlers;
+
+require_once './Paths.php';
+require_once BASE_CHARACTER;
 
 class Range extends BaseCharacter
 {
