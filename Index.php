@@ -1,4 +1,5 @@
 <?php
+/* include the library */
 require __DIR__
         . DIRECTORY_SEPARATOR
         . 'FakeContent.php';
