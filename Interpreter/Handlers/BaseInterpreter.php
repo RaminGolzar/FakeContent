@@ -17,7 +17,6 @@ abstract class BaseInterpreter
      * Assignment $gc property
      */
     public function __construct () {
-        /* ToDo: add a back slash to before namespace */
         $this->gc = new \FakeContent\GenContent\GenContent();
     }
 

@@ -6,5 +6,5 @@ require __DIR__
 $fc = new FakeContent\FakeContent();
 
 echo'<pre><b>';
-print_r ($fc->field ('###'));
+print_r ($fc->field ('[###]'));
 echo'</b></pre>';
